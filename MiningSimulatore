@@ -173,9 +173,8 @@ loadstring(game:HttpGet("https://gist.githubusercontent.com/baconplayer009/5ff87
 end
 })  
 Page.Button({
-        Text = "Update Script",
+        Text = "Updata Script",
         Callback = function()
-MiningSim.Visible = false
 loadstring(game:HttpGet("https://raw.githubusercontent.com/baconplayer009/Mining-Sim/main/MiningSimulator.txt"))()
 end
 })  
