@@ -163,7 +163,7 @@ end
  Page.Button({
         Text = "2x Speed",
         Callback = function()
-
+loadstring(game:HttpGet("https://gist.githubusercontent.com/baconplayer009/d1bf22b92bec39f77c789091ea0e8c96/raw/3b4a4e5a2e5464dc8a4f9b1d8f86ba22639deea3/shift%2520sprint"))()
 end
 })
  Page.Button({
