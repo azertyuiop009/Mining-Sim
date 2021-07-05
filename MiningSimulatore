@@ -166,6 +166,18 @@ end
 loadstring(game:HttpGet("https://gist.githubusercontent.com/baconplayer009/d1bf22b92bec39f77c789091ea0e8c96/raw/3b4a4e5a2e5464dc8a4f9b1d8f86ba22639deea3/shift%2520sprint"))()
 end
 })
+Page.Button({
+        Text = "FPS Unlocker",
+        Callback = function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/baconplayer009/5ff8758f5ad41adde367dd5e035b168a/raw/5d5a4e4fe801f8adfc745cde7ad75ab863a6a168/FPS%2520Unlocker", true))()
+end
+})  
+Page.Button({
+        Text = "Update Script",
+        Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/baconplayer009/Mining-Sim/main/MiningSimulator.txt"))()
+end
+})  
  Page.Button({
         Text = "Rejoin",
         Callback = function()
