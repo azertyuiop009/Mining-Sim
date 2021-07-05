@@ -161,6 +161,12 @@ end
 end
 })
  Page.Button({
+        Text = "2x Speed",
+        Callback = function()
+
+end
+})
+ Page.Button({
         Text = "Rejoin",
         Callback = function()
 game:GetService("TeleportService"):Teleport(game.PlaceId, game.Players.LocalPlayer)
